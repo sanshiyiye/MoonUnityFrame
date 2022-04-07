@@ -3,3 +3,6 @@
 .vscode
 .vs
 Core/obj/*
+Core/bin/*
+test/Name/obj/*
+test/Name/bin/*
