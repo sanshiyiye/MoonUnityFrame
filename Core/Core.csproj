@@ -40,4 +40,12 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
+  <ItemGroup>
+     <Compile Include="IAppEntry.cs" />
+     <Compile Include="Manager\AppEngine.cs" />
+     <Compile Include="Config\ConfigMgr.cs" />
+     <Compile Include="Config\IConfig.cs" />
+     <Compile Include="Manager\IModule.cs" />
+     <Compile Include="Singleton.cs" />
+  </ItemGroup>
 </Project>

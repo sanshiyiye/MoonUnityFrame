@@ -1,26 +1,28 @@
 using System;
-using System.Reflection.PortableExecutable;
+using System.Diagnostics;
+
+// using System.Reflection.PortableExecutable;
 namespace Core
 {
     
-    public class ConfigMgr
+    /// <summary>
+    /// 
+    /// </summary>
+    public class ConfigMgr : Singleton<ConfigMgr>
     {
-        int Count(){
-            get;
-        }
 
         /// <summary>
         /// 初始化接口
         /// </summary>
-        public void init()
+        public void Init()
         {
-
+            Console.WriteLine("1111111122222");
         }
 
         /// <summary>
         /// 重新加载
         /// </summary>
-        public void reload()
+        public void Reload()
         {
 
 
@@ -28,7 +30,7 @@ namespace Core
         /// <summary>
         /// 清楚配置
         /// </summary>
-        public void clear()
+        public void Clear()
         {
 
         }
