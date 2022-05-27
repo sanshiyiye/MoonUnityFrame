@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace Core
 {
     /// <summary>
@@ -5,6 +7,9 @@ namespace Core
     /// </summary>
     public interface IModule
     {
-        
+        /// <summary>
+        /// 
+        /// </summary>
+        void Init();
     }
 }

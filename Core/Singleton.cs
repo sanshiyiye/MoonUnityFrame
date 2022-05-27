@@ -23,6 +23,7 @@ namespace Core
         /// <returns></returns>
         public static T getInstance()
         {
+            
             lock (m_Lock)
             {
                 if (m_Instance == null)

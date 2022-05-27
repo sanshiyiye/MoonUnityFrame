@@ -11,12 +11,17 @@ namespace Core
         /// 
         /// </summary>
         /// <returns></returns>
-        IEnumerator OnInit();
+        void OnInit();
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns></returns>
-        IEnumerator OnStart();
+        void OnStart();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void CheckUpdate();
     }
 }

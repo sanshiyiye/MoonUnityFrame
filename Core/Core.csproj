@@ -41,11 +41,23 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="AppConfig.cs" />
+     <Compile Include="Event\CallBack.cs" />
+     <Compile Include="GameException.cs" />
      <Compile Include="IAppEntry.cs" />
+     <Compile Include="Log\Debugger.cs" />
+     <Compile Include="Log\ILogHandler.cs" />
+     <Compile Include="Log\Logger.cs" />
+     <Compile Include="Log\LogLevel.cs" />
      <Compile Include="Manager\AppEngine.cs" />
      <Compile Include="Config\ConfigMgr.cs" />
      <Compile Include="Config\IConfig.cs" />
+     <Compile Include="Manager\Game.cs" />
      <Compile Include="Manager\IModule.cs" />
      <Compile Include="Singleton.cs" />
+     <Compile Include="Utils\BaseApplication.cs" />
+     <Compile Include="Utils\Utils.ITextHelper.cs" />
+     <Compile Include="Utils\Utils.TextUtility.cs" />
+     <Compile Include="Utils\Utils.Tools.cs" />
   </ItemGroup>
 </Project>
