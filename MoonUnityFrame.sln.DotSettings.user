@@ -6,4 +6,5 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/Applications/Unity/2019.4.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll" /&gt;
   &lt;Assembly Path="/Applications/Unity/2019.4.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll" /&gt;
+  &lt;Assembly Path="/Users/wangxiaoguang/Desktop/workspace/unity/Sample/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

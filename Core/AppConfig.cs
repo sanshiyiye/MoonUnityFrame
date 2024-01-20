@@ -10,7 +10,7 @@ namespace Core
     /// <summary>
     /// 系统配置
     /// </summary>
-    public class AppConfig
+    public class AppConfig 
     {
         /// <summary>
         /// 
