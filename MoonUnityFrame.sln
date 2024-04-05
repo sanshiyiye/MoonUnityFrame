@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "..\Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameWork", "..\Sample\FrameWork.csproj", "{25945372-52D1-D79C-9FB4-453B76367359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "..\Sample\UniTask.csproj", "{2b1370bf-f862-8237-eda6-9df207ffefae}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "..\Sample\UniTask.csproj", "{2B1370BF-F862-8237-EDA6-9DF207FFEFAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
