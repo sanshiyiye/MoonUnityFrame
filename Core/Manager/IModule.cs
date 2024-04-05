@@ -11,5 +11,10 @@ namespace Core
         /// 
         /// </summary>
         void Init();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        void Destroy();
     }
 }
