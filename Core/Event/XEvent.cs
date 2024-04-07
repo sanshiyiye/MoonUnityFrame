@@ -32,7 +32,7 @@ namespace Core
         
         public static IEventTicket Register(string name, Action<object> handler,string eventGroup = DefaultGroup)
         {
-            return getInstance().RegisterEvent(name,handler,eventGroup);
+            return GetInstance().RegisterEvent(name,handler,eventGroup);
         }
 
         private IEventTicket RegisterEvent(string name, Action<object> handler, string eventGroup)
@@ -81,17 +81,17 @@ namespace Core
 
         public static void Remove(Action<object> handler)
         {
-            getInstance().RemoveEvent(handler);
+            GetInstance().RemoveEvent(handler);
         }
 
         public static void Call(string eventName, object param = null, string eventGroup = DefaultGroup)
         {
-            getInstance().CallEvent(eventName,param,eventGroup);
+            GetInstance().CallEvent(eventName,param,eventGroup);
         }
 
         public static void Remove(Action<object> handler, string name, string @group)
         {
-            getInstance().RemoveEvent(handler,name,group);
+            GetInstance().RemoveEvent(handler,name,group);
         }
 
         private void RemoveEvent(Action<object> handler)

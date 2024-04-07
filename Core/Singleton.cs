@@ -21,7 +21,7 @@ namespace Core
         /// 
         /// </summary>
         /// <returns></returns>
-        public static T getInstance()
+        public static T GetInstance()
         {
             
             lock (m_Lock)
